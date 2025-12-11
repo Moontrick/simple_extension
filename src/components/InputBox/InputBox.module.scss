@@ -1,0 +1,22 @@
+.root{
+    width: 100%;
+    height: 150px;
+    border: 1px dashed black;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        border: 1px dashed blue;
+    }
+    &_input{
+        display: none;
+    }
+    &_button{
+        border: 0;
+        background: transparent;
+        width: 100%;
+        height: 100%;
+    }
+}
