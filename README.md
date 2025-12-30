@@ -35,3 +35,11 @@ yarn start
 ```bash
 yarn test
 ```
+
+
+### Интеграция с Google Chrome:
+```bash
+yarn build
+
+Потом переходим в chrome://extensions/, включаем режим разработчика и закидываем папку dist для публикации
+```
